@@ -1,0 +1,4 @@
+#! /bin/bash
+apt update
+apt upgarade -y
+apt install -y openjdk-11-jdk - y

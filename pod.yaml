@@ -1,0 +1,18 @@
+# pod.yaml
+ap  iVersion: v1
+kind: Pod 
+metadata:
+  name: mypod
+  labels:
+    app: myapp
+spec:
+  containers:
+  - name: mycontainer
+    image: nginx
+    ports:
+    - containerPort: 80 
+   #added a comment to the pod.yaml file
+   added a comment to the pod.yaml file
+   #added a comment to the pod.yaml file dummy text in pod.yaml file
+   #added another comment to the pod.yaml file dummy text in pod.yaml file
+   #added a comment to the pod.yaml file dummy text in pod.yaml file
